@@ -1,5 +1,7 @@
 ## Foundational Image Models: A Leap Forward for Surveillance Video Summarization?
-Initial Report of Video Object Detection Project at LAS-SCADS -- Laura Dozal,   Ben Strickson 
+Initial Report of Video Object Detection Project at LAS-SCADS
+
+Laura Dozal,   Ben Strickson 
 
 **Abstract:** The goal of this project is to lower analyst hours spent on triaging surveillance video content. The current analyst approach consists of an analyst looking for any type of change or activity in a video, typically, a change detection algorithm is implemented for those who can run the model. Either way, we are currently using suboptimal techniques for video triage. This project investigates if we can improve object detection approaches in dashcam video triage. Typically dashcam footage is realistic and challenging; it is noisy, long in length, often has no audio, and has a constantly shifting point of view. We use zero-shot models (general transformers and LMMs) to explore two specific problems found in object detection for dashcam videos by LAS staff. The first is obfuscation or obstruction where cars are given a new id and counted more than once if covered by a passing car. The second problem is identifying an unknown or unconventional vehicle like tuk-tuks or various sized trucks.
 
